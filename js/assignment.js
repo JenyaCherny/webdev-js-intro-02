@@ -8,15 +8,19 @@ const willMeetResolutionElement = document.getElementById("will-meet-resolution"
 const submissionBtn = document.getElementById("submission-btn")
 
 // Declare your variables here.
+const resolution = "Web Development course";
+const currentYear = 2024;
+let willMeetResolution = true;
 
 function updateYear() {
     // Update this function
+
 
 }
 
 function updateResolution() {
     // Update this function 
-
+console.log(resolution);
 }
 
 function updateWillMeetResolution() {
